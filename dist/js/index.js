@@ -113,3 +113,13 @@ $('.luminosity').on('tap',".cw",function(){
 $('.box').on('click',function(){
 	window.location="ad.html"
 })
+//企业提交表单验证
+ function toVaild(){
+	if($('.phone input').eq(0) == "1234567"){
+		return true;
+	}
+	else{
+		alert("校验失败，不进行提交");
+	  	return false;
+	 }
+}
