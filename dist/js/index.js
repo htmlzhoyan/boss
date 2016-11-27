@@ -115,7 +115,7 @@ $('.box').on('click',function(){
 })
 //企业提交表单验证
  function toVaild(){
-	if($('.phone input').eq(0) == "1234567"){
+	if($('#mima').val()==1234){
 		return true;
 	}
 	else{
